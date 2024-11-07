@@ -1,0 +1,41 @@
+body {
+  /* background-color: #daa06d; */
+  background-color: antiquewhite;
+}
+/* In both the body and the header h1, I discovered that I didn't like the original back-ground colors i choose. I commented those out to add a different color */
+header h1 {
+  /* background-color: #e0b0ff; */
+  background-color: #d8bfd8;
+  color: #452c63;
+  font-size: 6rem;
+  text-align: center;
+}
+
+h2 {
+  color: #662d91;
+}
+main h2 {
+  font-size: 32px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  text-align: center;
+}
+
+article img {
+  width: 50%;
+  height: auto;
+}
+/* aside {
+  font-size: 400px;
+}
+aside h2 {
+  font-size: 0.5rem;
+} */
+caption {
+  font-size: 24px;
+  text-align: center;
+}
+footer {
+  background-color: #d8bfd8;
+  color: #4b0082;
+  font-family: cursive;
+}
