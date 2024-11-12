@@ -1,0 +1,57 @@
+header {
+  font-size: 75%;
+}
+table {
+  border: 5px outset blue;
+
+  font-size: 90%;
+  border-collapse: collapse;
+  width: 100%;
+}
+body {
+  background-color: lightblue;
+  font-family: sans-serif;
+  min-width: 800px;
+  max-width: 1200px;
+  margin: auto;
+}
+
+tbody th {
+  width: 20%;
+  background-color: #ffd580;
+}
+tbody td {
+  background-color: beige;
+}
+tr,
+th,
+td {
+  border: 1px solid black;
+}
+tbody tr {
+  height: 60px;
+}
+thead tr,
+tfoot tr {
+  height: 40px;
+}
+.time_ {
+  /* width: 20%; */
+  text-align: left;
+}
+.date_ {
+  width: 16%;
+}
+thead,
+tfoot {
+  background-color: lightskyblue;
+}
+tfoot {
+  text-align: left;
+}
+caption {
+  text-align: left;
+}
+.time_1 {
+  width: 20%;
+}
