@@ -1,0 +1,13 @@
+@charset "utf-8";
+
+/* here were are externally styling the the special-box element from our html file
+*/
+
+/* my first padding attempt did not work, after a google search, it was an easy fix.  I commented out my mistake */
+
+.special-box {
+  /* padding: 0 auto; */
+  background-color: bisque;
+  padding: 20px;
+}
+/* external style sheets are used most often and are preferred to keep styling consistent when syling multiple web pages */

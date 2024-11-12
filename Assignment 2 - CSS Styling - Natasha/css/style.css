@@ -1,0 +1,14 @@
+#featured-song {
+  border: 2px dashed #808080;
+  padding: 1rem;
+}
+/* I first choose fantasy as the font but didn't like how the lines blurred and the bold seemed too bold */
+#featured-song h2 {
+  /* font-family: fantasy; */
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.ul li img {
+  width: 400px;
+  height: 500px;
+}

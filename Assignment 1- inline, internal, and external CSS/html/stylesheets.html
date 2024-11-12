@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Style Sheets</title>
+    <link rel="stylesheet" href="../css/style.css" type="text/css" />
+    <!-- Natasha Holloran, Assignment 1 Inline, Internal, and External CSS -->
+
+    <!-- This internal styling is useful to style multiple elements in within the page -->
+    <style>
+      body {
+        background-color: lightslategray;
+      }
+
+      .p2 {
+        font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+        font-size: 31px;
+      }
+    </style>
+  </head>
+  <!-- The inline styling in the h1 tag and the p tag are stlying specific to those areas and nowhere else on the page or any other pages if more are attached -->
+  <body>
+    <header>
+      <h1 style="color: purple; font-size: 48px; font-family: fantasy">
+        Styling Showdown
+      </h1>
+    </header>
+    <main>
+      <p style="font-family: sans-serif; font-style: bold">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint sit at
+        illo praesentium deserunt aut quos cumque. Architecto obcaecati, aut in
+        enim rerum molestiae laborum! Labore voluptas illo sint consequuntur.
+      </p>
+
+      <p class="p2">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum debitis
+        distinctio doloribus, neque quasi minima deleniti obcaecati architecto
+        nihil, laboriosam ex aliquam natus cupiditate iusto rem provident
+        incidunt numquam suscipit?
+      </p>
+      <!-- This section cotains my paragragh with a class needing styling from the external style sheet. -->
+      <div class="special-box">
+        <p>
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maiores
+          similique eveniet a architecto voluptas, aspernatur doloremque numquam
+          delectus fuga nostrum repellendus eos neque odio corrupti, perferendis
+          sint unde expedita voluptatum.
+        </p>
+      </div>
+    </main>
+  </body>
+  <footer style="font-size: 24px">&copy; 2024 Internship Assignment</footer>
+</html>
