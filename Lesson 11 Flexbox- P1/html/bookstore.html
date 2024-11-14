@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lesson 11 Flexbox pt 1</title>
+    <link rel="stylesheet" href="../css/reset.css" />
+    <!-- Natasha Holloran Lesson 11 -
+     2024/11/13 -->
+
+    <style>
+      h1 {
+        font-size: 35px;
+        font-family: cursive;
+        text-align: center;
+        margin-top: 5%;
+      }
+      ul {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        margin-top: 4%;
+      }
+      li {
+        border: 1px solid black;
+      }
+      .book-list {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        margin-top: 3%;
+      }
+      .book {
+        /* display: flex;
+        flex-wrap: wrap;
+        flex-direction: column; */
+        max-width: 250px;
+        border: 1px solid black;
+        padding: 1%;
+      }
+      img {
+        max-width: 200px;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <h1>The Kitchen Sink of Used Books Stores</h1>
+        <nav>
+          <ul>
+            <!-- put flex instructions on ul (parent) to move the li (children) -->
+            <li>Medicine & Healing</li>
+            <li>Fiber Arts</li>
+            <li>How to Draw</li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <div class="book-list">
+      <div class="book">
+        <h3>The Lost Book of Herbal Remedies</h3>
+        <p>Dr. Nicole Apelian</p>
+        <img
+          src="../images/51hlaZ9ZZ8L._SX342_SY445_.jpg"
+          alt="The Lost Book of Herbal Remedies- Book Cover"
+        />
+      </div>
+      <div class="book">
+        <h3>Edible and Medicinal Plants of Canada</h3>
+        <p>Linda Kershaw</p>
+        <img
+          src="../images/plants of CANADA.jpg"
+          alt="Edible and Medicinal Plants of Canada - Book Cover"
+        />
+      </div>
+      <div class="book">
+        <h3>Singer: The Complete Photo Guide to Sewing, 3rd Edition</h3>
+        <p>Editors of Creative Publishing international</p>
+        <img
+          src="../images/sewing.jpg"
+          alt="Singer: The Complete Photo Guide to Sewing, 3rd Edition - Book Cover"
+        />
+      </div>
+      <div class="book">
+        <h3>Complete Crochet Course: The Ultimate Reference Guide</h3>
+        <p>Shannon Mullett-Bowlsby</p>
+        <img
+          src="../images/crochet.jpg"
+          alt="Complete Crochet Course: The Ultimate Reference Guide - Book Cover"
+        />
+      </div>
+      <div class="book">
+        <h3>
+          The New Artist's Guide to Drawing: Learn How to Draw People, Animals,
+          Landscapes and More the Easy Way
+        </h3>
+        <p>Mark Liam Smith</p>
+        <img
+          src="../images/draw.jpg"
+          alt="The New Artist's Guide to Drawing: Learn How to Draw People, Animals, Landscapes and More the Easy Way - Book Cover"
+        />
+      </div>
+      <div class="book">
+        <h3>
+          All the Things: How to Draw Books for Kids with Cars, Unicorns,
+          Dragons, Cupcakes, and More
+        </h3>
+        <p>Alli Koch</p>
+        <img
+          src="../images/kids draw.jpg"
+          alt="All the Things: How to Draw Books for Kids with Cars, Unicorns, Dragons, Cupcakes, and More - Book Cover"
+        />
+      </div>
+    </div>
+  </body>
+</html>
