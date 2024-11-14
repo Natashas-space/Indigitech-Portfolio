@@ -1,0 +1,54 @@
+@charset "utf-8";
+/* <!-- Author Info
+Natasha Holloran
+Lab 9, 2024/11/08 --> */
+
+body {
+  /* border: 1px solid black; */
+  width: 80%;
+  min-width: 800px;
+  max-width: 1200px;
+  margin: auto;
+}
+
+#logo {
+  width: 75%;
+  float: left;
+}
+.vertical {
+  width: 25%;
+  height: 100%;
+  float: left;
+}
+header {
+  /* border: 1px solid black; */
+  overflow: auto;
+}
+.horizontal ul li {
+  float: left;
+  width: 12.5%;
+}
+main section {
+  /* border: 1px solid black; */
+  width: 25%;
+  float: left;
+}
+main section img {
+  width: 50%;
+  margin: auto;
+}
+
+#leftAside {
+  /* border: 1px solid black; */
+  width: 50%;
+  float: left;
+}
+
+#rightAside {
+  /* border: 1px solid black; */
+  width: 49%;
+  float: left;
+}
+main {
+  overflow: auto;
+}

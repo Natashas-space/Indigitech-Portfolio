@@ -1,0 +1,66 @@
+@charset "utf-8";
+/* <!-- Author Info
+Natasha Holloran
+Lab 9, 2024/11/08 --> */
+header {
+  background-color: #89cff0;
+}
+
+html {
+  background-color: #f8de7e;
+}
+
+/* body ( 
+    background
+) */
+main {
+  border: 1px solid black;
+  background-color: #fffdd0;
+}
+
+/* .topic img {
+  align-items: ;
+} */
+.vertical ul li {
+  background-color: #89cff0;
+  color: white;
+  /* text-align: center; */
+  padding: 7.1%;
+}
+/* .vertical {
+  padding-left: 10%;
+} */
+
+.horizontal ul li {
+  background-color: #191970;
+  color: white;
+  padding: 1%;
+}
+#leftAside img {
+  align-items: center;
+  margin: 8px 2px 5px 2px;
+  padding: 1%;
+}
+#rightAside img {
+  align-items: center;
+  margin: 8px 2px 5px 2px;
+
+  padding: 1%;
+}
+
+footer {
+  border: 1px solid black;
+  color: white;
+  text-align: center;
+  background-color: #4682b4;
+  padding: 1%;
+}
+a {
+  color: white;
+}
+.topic {
+  text-align: center;
+}
+.topic p {
+  text-align: left;
+}
