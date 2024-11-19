@@ -1,0 +1,72 @@
+@charset "utf-8";
+/* <!-- Author Info
+Natasha Holloran
+Lab 14, 2024/11/19 --> */
+
+body {
+  /* border: 5px solid #483248; */
+
+  display: grid;
+  width: 40%;
+  min-width: 800px;
+  max-width: 1200px;
+  gap: 10px;
+  /* height: 100%; */
+  margin: auto;
+  grid-template-columns: 2fr 3fr 1fr;
+  grid-template-areas:
+    "head head head"
+    "nav nav nav"
+    "intro main side1"
+    "intro main side2"
+    "foot foot foot";
+}
+header {
+  border: 1px dashed black;
+  grid-area: head;
+}
+nav {
+  /* border: 1px dashed black; */
+  grid-area: nav;
+}
+nav ul {
+  /* border: 1px dashed black; */
+  display: grid;
+  column-gap: 10px;
+  grid-template-columns: auto auto auto auto auto auto;
+
+  align-items: center;
+  /* width: 80%; */
+  margin: auto;
+}
+nav ul li {
+  border: 1px dashed black;
+}
+#intro {
+  border: 1px dashed black;
+  grid-area: intro;
+}
+#main {
+  border: 1px dashed black;
+  grid-area: main;
+}
+#side1 {
+  border: 1px dashed black;
+  grid-area: side1;
+}
+#side2 {
+  border: 1px dashed black;
+  grid-area: side2;
+}
+footer {
+  /* border: 1px dashed black; */
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-area: foot;
+  column-gap: 10px;
+}
+#footer1,
+#footer2,
+#footer3 {
+  border: 2px dashed yellow;
+}
