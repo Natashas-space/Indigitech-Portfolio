@@ -1,0 +1,36 @@
+body {
+  background-image: linear-gradient(lavender, peachpuff);
+  color: #aa98a9;
+  text-align: center;
+}
+h1 {
+  font-size: 49px;
+}
+ul {
+  list-style: none;
+}
+#cedar {
+  font-style: italic;
+}
+article {
+  padding: 5%;
+  margin: 3%;
+}
+aside {
+  border: 3px dashed #aa98a9;
+  margin: 4%;
+}
+aside:nth-child(even) {
+  background-color: coral;
+}
+
+p {
+  line-height: 1.5em;
+}
+a {
+  color: darkgray;
+}
+a:hover {
+  background-color: aliceblue;
+  font-style: italic;
+}

@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!-- Author Info
+Natasha Holloran
+Lab 16, 2024/11/25 -->
+    <style>
+      div {
+        display: grid;
+        grid-template-columns: auto auto;
+      }
+      nav {
+        display: flex;
+        justify-content: space-around;
+        padding-bottom: 3em;
+      }
+      form {
+        text-align: left;
+        background-color: rgb(151, 123, 178);
+        /* padding-top: 3em; */
+        width: 80%;
+        margin: auto;
+      }
+
+      h1 {
+        font-size: 48px;
+        color: #673147;
+      }
+      body {
+        text-align: center;
+        background-color: rgb(224, 224, 224);
+        margin: auto;
+      }
+
+      img {
+        width: 70%;
+        padding-top: 3em;
+      }
+      footer {
+        color: #673147;
+        text-align: center;
+        font-style: italic;
+        padding-top: 3em;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Preston Soup Kitchen</h1>
+      <nav>
+        <a href="../index.html">Home</a>
+        <a href="./signup.html">Sign Up</a>
+        <a href="#footer">Contact Kitchen</a>
+      </nav>
+    </header>
+
+    <main>
+      <form action="" method="get">
+        <fieldset>
+          <legend>Volunteer Sign Up Form</legend>
+          <div>
+            <label for="firstName">First Name</label>
+            <input type="text" name="firstName" id="firstName" />
+
+            <label for="lastName">Last Name</label>
+            <input type="text" name="lastName" id="lastName" />
+
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" />
+
+            <label for="interests">Interests</label>
+            <input type="text" name="interests" id="interests" />
+
+            <label for="availability">Availability</label>
+            <input type="text" name="availability" id="availability" />
+
+            <input type="submit" value="Sign Up" />
+            <input type="reset" value="Cancel" />
+          </div>
+        </fieldset>
+      </form>
+
+      <img src="../images/serving.jpg" alt="Volunteers Serving Food" />
+    </main>
+    <footer id="footer">
+      &copf; 2024 Preston Community Soup Kitchen
+      <address>123 King St. Cambridge, ON N3H 3V1</address>
+      <p>Phone 519-123-4567</p>
+    </footer>
+  </body>
+</html>
