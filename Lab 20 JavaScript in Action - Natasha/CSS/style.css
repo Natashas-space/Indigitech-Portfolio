@@ -1,0 +1,27 @@
+@charset "utf-8";
+
+body {
+  background-color: #f3cfc6;
+  color: #aa336a;
+  font-family: cursive;
+  font-style: italic;
+  text-align: center;
+}
+
+header,
+footer {
+  background-color: #de3163;
+  padding: 2em;
+}
+h1 {
+  font-size: 34px;
+}
+p {
+  margin: 2%;
+}
+#results {
+  border: 3px dotted #de3163;
+  width: 80%;
+  margin: 3% auto;
+  padding: 4%;
+}
